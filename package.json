@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --exit",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "shweta",
   "license": "ISC",
