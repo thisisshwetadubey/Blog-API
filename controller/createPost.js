@@ -8,6 +8,7 @@ const createPost = async (req, res) => {
     const checkCategory = await Category.findOne({ _id: category_id });
 
     if (!checkCategory)  throw "Category not found";
+    console.log("new commit")
 
     const postData = await Posts.create({
       title,
